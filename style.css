@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    
+}
+.box {
+    height: 5823px;
+    width: 1000px;
+    border: 1px solid;
+    margin: 0px auto;
+}
+.header{
+    height: 180px;
+    width: 1000px;
+    background: #ab183d;
+}
+.logo{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.title {
+    height: 180px;
+    width: 820px;
+    float: right;
+    text-align: center;
+    color: rgb(255, 255, 255);  
+}
+.title .heading{
+    padding-top: 40px;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+.title .sub_heading{
+    font-weight: 70;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    height: 50px;
+    width: 1000px;
+    line-height: 50px;
+    background: black;
+    
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    width: 121px;
+    text-align: center;
+    border-right: 1px solid white;
+    
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sarkariresult_paragraph p{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+.paragraph1{
+    width: 1000px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.paragraph1 .red_paragraph{
+    color: red;
+    margin-right: 4px;
+    font-weight: bold;
+
+}
+.paragraph1 .green_paragraph{
+    color: green;
+    margin-left: 3px;
+}  
+.channel_name{
+    height: 25px;
+    width: 1000px;
+    text-align: center;
+    line-height: 25px;
+}
+.channel_name a{
+    font-weight: bold;
+    color: #0000ee;
+}
+.twitter{
+    height: 35px;
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    display: flex;
+}
+.twitter img{
+    height: 20px;
+    width: 27px;
+    margin: 0px;
+    background-color: #0000ee;
+    border-radius: 25px 0 0 25px;
+}
+.twitter button{
+    height: 20px;
+    cursor:pointer;
+    background-color: #0000ee;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+.tools{
+    height: 32px;
+    width: 1000px;
+    text-align: center;
+}
+.tools a{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    padding: 11px 56px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 990px;
+    text-align: center;
+    height: 60px;
+}    
+.container .box1{ 
+    background-color: #868A08;
+    border: 3px solid white;
+}
+.container .box1 a{
+    height: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container .box2{ 
+    background-color: #0404B4;
+    border: 3px solid white;
+}
+.container .box2 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container .box3{ 
+    background-color: #ff7b00;
+    border: 3px solid white;
+}
+.container .box3 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container .box4{ 
+    background-color: #8c0101;
+    border: 3px solid white;
+}
+.container .box4 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.container .box5{ 
+    background-color: #fb0303;
+    border: 3px solid white;
+}
+.container .box5 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}.container .box6{ 
+    background-color: #0b610b;
+    border: 3px solid white;
+}
+.container .box6 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}.container .box7{ 
+    background-color: #ff00bf;
+    border: 3px solid white;
+}
+.container .box7 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}.container .box8{ 
+    background-color: #0080ff;
+    border: 3px solid white;
+}
+.container .box8 a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    margin-top: 5px;
+}
+.boxes .box1 {
+    height: 1000px;
+    width: 330px;
+    border: 1px solid rgb(252, 0, 0);
+    margin: 0px auto;
+}
+.boxes .box1 p{
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+    font-size: x-large;
+    height: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.boxes .box1 .content ul li{
+    margin-top: 15px;
+}
+.boxes .box1 .btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.boxes .box1 .btn button {
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+.boxes .box2 .btn2 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.boxes .box2 .btn2 button {
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+.boxes .box3 .btn3 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.boxes .box3 .btn3 button {
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+.boxes .box2 {
+    height: 1000px;
+    width: 330px;
+    border: 1px solid rgb(252, 0, 0);
+    margin: 0px auto;
+}
+.boxes .box2 p{
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+    font-size: x-large;
+    height: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.boxes .box2 .content ul li{
+    margin-top: 15px;
+}
+.boxes .box3 {
+    height: 1000px;
+    width: 300px;
+    border: 1px solid rgb(252, 0, 0);
+    margin: 0px auto;
+}
+.boxes .box3 p{
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+    font-size: x-large;
+    height: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.boxes .box3 .content ul li{
+    margin-top: 15px;
+}
+.footer_container{
+    text-align: center;
+    background-color: #AB183D;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    height: 36px;
+}
+.footer_container_text{
+    text-align: center;
+    font-size: medium;
+}
